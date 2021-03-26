@@ -5,6 +5,7 @@
 }
 
 .container{
+    margin: 20px;
     overflow: hidden;
     padding: 10px;
     display: flex;
@@ -12,8 +13,10 @@
     justify-content: space-between;
     flex-wrap: wrap;
     height: 250px;
-    width: 100%;
+    width: 500px;
     background-color: lightcoral;
+    border: solid 3px black;
+    border-radius: 10%;
 }
 
 .sq1 {
