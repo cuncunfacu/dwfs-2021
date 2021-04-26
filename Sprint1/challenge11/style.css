@@ -28,37 +28,28 @@
   border-radius: 10%;
 }
 
-.sq1 {
+.sq {
   height: 100px;
-  width: 100px;
   border: solid 2px black;
   background-color: orange;
   border-radius: 15%;
+}
+
+.sq1 {
+  width: 100px;
 }
 
 .sq2 {
-  height: 100px;
   width: 75px;
-  border: solid 2px black;
-  background-color: orange;
-  border-radius: 15%;
 }
 
 .sq3 {
-  height: 100px;
   width: 150px;
-  border: solid 2px black;
-  background-color: orange;
   -ms-flex-item-align: end;
       align-self: flex-end;
-  border-radius: 15%;
 }
 
 .sq4 {
-  height: 100px;
   width: 100px;
-  border: solid 2px black;
-  background-color: orange;
-  border-radius: 15%;
 }
 /*# sourceMappingURL=style.css.map */

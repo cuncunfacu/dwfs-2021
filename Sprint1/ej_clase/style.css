@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+  display: inline-block;
+}
+.nav {
+  grid-row-start: 1;
+  grid-row-end: -1;
+}
+.parent {
+  display: grid;
+  grid-template: 1fr 3fr / 1fr 100vh;
+}

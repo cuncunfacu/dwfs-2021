@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+div {
+  border: solid 3px black;
+}
+.a {
+  grid-area: header;
+}
+.b {
+  grid-area: main;
+}
+.c {
+  grid-area: sidebar;
+}
+.d {
+  grid-area: footer;
+}
+
+.container {
+  margin: auto;
+  margin-top: 20px;
+  border: none;
+  display: grid;
+  width: 90vw;
+  height: 80vh;
+  grid-template-rows: 1.5fr 10fr 1.5fr;
+  row-gap: 10px;
+  column-gap: 20px;
+  grid-template-areas:
+    "header header header header"
+    "sidebar main main main"
+    "footer footer footer footer";
+}
