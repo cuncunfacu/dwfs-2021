@@ -1,0 +1,78 @@
+* {
+  background-color: white;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  display: inline-block;
+  border: 2px solid red;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 80px;
+  align-self: center;
+  justify-self: center;
+}
+
+nav {
+  border: 2px solid black;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 1rem;
+}
+
+.filtros,
+.search {
+  display: flex;
+  border: 2px solid black;
+  min-width: 50vw;
+}
+
+input {
+  width: 100%;
+}
+
+.filtros1 {
+  display: flex;
+}
+
+footer {
+  border: 2px solid black;
+  width: 500px;
+  position: relative;
+  margin-left: 400px;
+  margin-top: 50px;
+}
+
+button {
+  background-color: blanchedalmond;
+}
+
+h2 {
+  border: 2px solid black;
+  width: 200px;
+}
+
+.efect {
+  border: 2px solid black;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.tarjeta {
+  border: 2px solid black;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+#datos {
+  display: none;
+}

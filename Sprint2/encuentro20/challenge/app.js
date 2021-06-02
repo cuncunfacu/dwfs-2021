@@ -1,4 +1,8 @@
-const nombre = "Facundo"
-const apellido = "Bobadilla"
+const nombre = "Nombre";
+const apellido = "Apellido";
 
-alert(nombre+" "+apellido)
+alert(nombre + " " + apellido)
+
+nombre.toLocaleLowerCase()
+
+ 
